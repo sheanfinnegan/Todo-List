@@ -14,6 +14,7 @@ body {
     background-image: linear-gradient(315deg, #A9C9FF 0%, #FFBBEC 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-bottom: 2rem;
 
 }
 
@@ -29,7 +30,7 @@ h1 {
     text-align: center;
     color: white;
     font-weight: 10;
-    padding: 3.5rem 3rem 2rem 3rem;
+    padding: 2rem 3rem 2rem 3rem;
     font-family: 'Pacifico', sans-serif;
     font-size: 3.5rem;
     text-shadow: 4px 3px 9px rgba(0, 0, 0, 0.96);
