@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List | Shean Finnegan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="preloader"></div>
+    <header style="text-align: start; padding: 1.3rem 1.3rem">
+        <button style="border: 2px solid black;border-radius: 20px;padding: .2rem .8rem;"><a
+                href="https://sheanfinnegan.github.io/" target="_blank"
+                style="text-decoration: none; color: black; font-family: 'Poppins'; font-weight: bold; font-size: 17px; ">Go
+                Back</a></button>
+    </header>
+    <h1>Who's Todo List</h1>
+    <div class="inputContent">
+        <div class="input">
+            <input type="text" placeholder="Insert Your Todo List">
+            <img src="https://pngimg.com/uploads/plus/plus_PNG26.png" alt="plusSign" width="55"
+                style="border-radius: 50%;">
+        </div>
+
+        <div class="value">
+            <div class="select-box">
+                <select class="listValue" name="listValue">
+                    <option class="opsi" value="all">All</option>
+                    <option class="opsi" value="complete">Completed</option>
+                    <option class="opsi" value="notcom">Uncompleted</option>
+                </select>
+            </div>
+        </div>
+
+
+
+    </div>
+    <main>
+        <section class="isiList">
+        </section>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
