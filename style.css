@@ -142,6 +142,10 @@ header button:hover {
 }
 
 @media(max-width: 576px) {
+    .input input {
+        width: 275px;
+    }
+
     .inputContent {
         flex-direction: column;
     }
