@@ -142,8 +142,13 @@ header button:hover {
 }
 
 @media(max-width: 576px) {
+    h1 {
+        padding-top: 1.5rem;
+        line-height: 5.3rem;
+    }
+
     .input input {
-        width: 275px;
+        width: 220px;
     }
 
     .inputContent {
@@ -159,6 +164,6 @@ header button:hover {
     }
 
     .contentIsi h2 {
-        width: 265px;
+        width: 165px;
     }
 }
